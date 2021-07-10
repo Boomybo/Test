@@ -1,0 +1,614 @@
+$color-blue: #3A63DE;
+$color-black: #333333;
+$color-white:white;
+$cards-text-color:#818386;
+$background-color:#F2F5FA;
+$text-color-right:#595F69;
+$nav-font-family: Poppins;
+$nav-font-style: normal;
+$nav-font-weight: normal;
+$nav-font-size: 13px;
+$nav-line-height: 19px;
+$nav-text-align: center;
+$nav-text-color: #FFFFFF;
+$nav-opacity: 0.8;
+$border: 1px solid #E1E3E6;
+$font-size: 15px;
+$font-size-team-text:14px;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-card{
+    background-color: $color-blue;
+    width: 150px;
+    height: 150px;
+}
+
+.nav-card img, .nav-card-exception img:nth-of-type(1){
+    padding: 40px 0 0 50px;
+}
+
+.nav-text{
+    font-family: $nav-font-family;
+    font-style: $nav-font-style;
+    font-weight: $nav-font-weight;
+    font-size: $nav-font-size;
+    line-height: $nav-line-height;
+    text-align: $nav-text-align;
+    color: $nav-text-color;
+    opacity: $nav-opacity;
+    padding-top: 16px;
+}
+.nav-card:hover, .nav-card-exception:hover{
+    color:white;
+    box-shadow: inset 0px -4px 8px rgba(0, 0, 0, 0.08), inset 0px 4px 8px rgba(0, 0, 0, 0.08);
+}
+.nav-card-exception img:nth-of-type(2){
+    position: relative;
+    top: -35px;
+    left: -15px;
+    border: solid 6px $color-blue;
+}
+nav section{
+    margin-top: -5px;
+}
+.nav-card-exception{
+    background-color: $color-blue;
+    width: 150px;
+    height: 150px;
+}
+
+.scrolling{
+    margin-top:0px;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+.div{
+    background-color: $color-blue;
+    height: 20px;
+    margin-top: -5px;
+}
+.search-input{
+    background:  #fff url("file:///B:/%D1%81%D1%82%D0%B5%D0%BF%D0%B8%D0%BA/test/img/Search.png") 22px 22px no-repeat;
+}
+
+input[placeholder="Search..."]{
+    font-family: $nav-font-family;
+    padding: 24px 266px 28px 52px;
+}
+
+.search-input{
+    outline: none;
+    border: $border;
+    width: 60px;
+}
+
+.caption{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px 0 2px 24px;
+    border-right: $border;
+}
+
+.caption-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 0 2px 25px;
+    border-right: $border;
+}
+
+.caption-text{
+    font-family: $nav-font-family;
+    font-style: $nav-font-style;
+    font-weight: $nav-font-weight;
+    font-size: $font-size;
+    line-height: 22px;
+    color: $cards-text-color;
+}
+
+.caption-plus{
+    width: 20px;
+    height: 20px;
+    padding-right: 20px;
+}
+
+.teams-cards{
+    padding: 24px 0 23px 24px;
+    display: flex;
+    flex-direction: row;
+    border-top:$border;
+    border-right: $border;
+
+}
+.user-logo{
+    width: 52px;
+    height: 52px;
+}
+.user-logo:nth-of-type(6){
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.teams-cards:nth-of-type(2),.teams-cards:nth-of-type(4),.teams-cards:nth-of-type(5){
+    border-right: $border;
+    border-top: none !important
+}
+.teams-cards:nth-of-type(3){
+    border-bottom:$border ;
+}
+.teams-cards:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.teams-cards-text{
+    padding-left: 16px;
+    padding-top: 5px;
+}
+.team-names{
+    font-family: $nav-font-family;
+    font-style: $nav-font-style;
+    font-weight: $nav-font-weight;
+    font-size: $font-size;
+    line-height: 22px;
+    color: $color-black;
+}
+
+.team-text{
+    font-family: $nav-font-family;
+    font-style: $nav-font-style;
+    font-weight: $nav-font-weight;
+    font-size: $font-size-team-text;
+    color:$cards-text-color;
+}
+
+.badge{
+    width: 21px;
+    height: 21px;
+    padding-top: 14px;
+    padding-left: 36px;
+}
+.badge-two{
+    height: 21px;
+    padding-top: 14px;
+    padding-left: 40px;
+}
+
+.cap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 14px 0 7px 25px;
+    border-bottom: $border;
+    
+}
+.user-name{
+    padding-left: 16px;
+    padding-top: 15px;
+    font-family: $nav-font-family;
+    font-style: $nav-font-style;
+    font-weight: $nav-font-weight;
+    font-size: $font-size;
+}
+.logo-name{
+    display: flex;
+    flex-direction: row;
+}
+.others img, .more{
+    width: 22px;
+    height: 22px;
+    padding-top: 15px;
+    padding-right: 17px;
+}
+.left-messages{
+    display: flex;
+    flex-direction: row;
+    margin-left: 29px;
+}
+.left-messages:nth-of-type(1){
+    margin-top: 18px;
+}
+.first-left-message{
+    margin-top: 31px;
+}
+.right{
+    margin-right:13px;
+    margin-top: 22px;
+}
+.center{
+    margin-right: 0 !important;
+}
+
+.align-center{
+    display: flex;
+    align-items: center;
+}
+.left-text-messages, .right-text-messages{
+    font-family: $nav-font-family;
+    font-style: $nav-font-style;
+    font-weight: $nav-font-weight;
+    font-size: $font-size;
+    line-height: 22px;
+
+}
+.left-text-messages{
+    background-color: $color-blue;
+    color:$color-white;
+    border-radius: 8px 8px 8px 1px;
+    margin-left: 8px;
+    margin-right: 14px;
+}
+.right-text-messages{
+    background-color: $background-color;
+    color:$text-color-right;
+    border-radius: 8px 8px 1px 8px;
+    margin-left:14px;
+    margin-right: 8px;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.left-text-messages:nth-of-type(1){
+    padding: 17px 20px;
+
+}
+
+.left-icon{
+    width: 52px;
+    height: 52px;
+}
+.more{
+    width: 22px;
+    height: 22px;
+    padding-bottom: 8px;
+}
+
+.left-icon:nth-of-type(1){
+    margin-top: 13px;
+}
+.left-icon-two{
+    padding-top: 24px;
+}
+.happy{
+    position: relative;
+    top:5px;
+    left: 5px;
+}
+
+.last-time{
+    font-family: $nav-font-family;
+    font-style: $nav-font-style;
+    font-weight: $nav-font-weight;
+    font-size: 13px;
+    line-height: 19px;
+    color:$cards-text-color;
+    margin-top: 4px;
+}
+
+.last-time-position:nth-of-type(2){
+    margin-left: 370px;
+}
+.last-time-position-second{
+    margin-left: 330px;
+}
+
+.last-time-right{
+    margin-left: 35px;
+}
+
+.right-text-messages:nth-of-type(1){
+    padding: 18px 24px 10px 20px;
+}
+.attachment{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.attachment img{
+    margin-right: 16px;
+    margin-top: 1px;
+}
+.right-icon{
+    margin-top: 17px;
+}
+.right-icon-second{
+    margin-top: 27px;
+}
+.more-attachment{
+    background-color: $background-color;
+    color:$color-blue;
+    margin-right: 75px;
+    margin-top: 13px;
+    font-family: $nav-font-family;
+    font-style: $nav-font-style;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nerd{
+    position: relative;
+    top:5px;
+    left:6px;
+}
+
+.edit{
+    margin-right:12px;
+}
+.last-time-right-two{
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.second-right-text-message{
+    padding-bottom: 16px !important;
+}
+ .lines{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+ }
+ .line{
+    background: #E1E3E6;
+    width: 600px;
+    height: 1px;
+ }
+ .line:nth-of-type(3){
+    width: 630px;
+ }
+ .line-text{
+    font-family: $nav-font-family;
+    font-style: $nav-font-style;
+    font-weight: $nav-font-weight;
+    font-size: 14px;
+    line-height: 21px;
+    color: $cards-text-color;
+    margin: 0 17px;
+ }
+
+.up, .up-download{
+    background-color: $background-color;
+    color:$color-black;
+    
+}
+.left-text-messages-last{
+    border-radius: 8px 8px 8px 1px;
+    margin-left: 8px;
+    margin-right: 14px;
+    margin-top: 18px;
+}
+.up{
+    padding:21px 70px 7px 22px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #333333;
+    line-height: 22px;
+    border-radius: 8px 8px 0px 0px;
+}
+.up-download{
+    font-family: $nav-font-family;
+    font-style: $nav-font-style;
+    font-weight: $nav-font-weight;
+    font-size: 14px;
+    line-height: 22px;
+    color: $color-blue;
+    padding-left: 20px;
+    padding-bottom: 21px;
+}
+
+.down-down{
+    background-color: $color-blue;
+    font-family: $nav-font-family;
+    font-style: $nav-font-style;
+    font-weight: $nav-font-weight;
+    font-size: $nav-font-size;
+    line-height: 22px;
+    color: $color-white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 10px 20px;
+    border-radius: 0px 0px 8px 0px;
+}
+.down-down img{
+    padding-right: 22px !important;
+}
+
+.last-time-position-third{
+    margin-left: 275px;
+}
+.left-icon-three{
+    padding-top: 90px;
+}
+
+.search-input{
+    outline: none;
+    border: $border;
+}
+.last-right{
+    margin-bottom:40px;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+.right-text-message-last{
+    padding-top: 21px !important;
+    padding-bottom: 20px !important;
+    padding-left:5px;
+}
+.last-time-right-third{
+    margin-left: 40px;
+}
+.burger{
+    display:none;
+}
+
+.send-message{
+    display: flex;
+    flex-direction: row;
+}
+ .send-message-img{
+    margin-top: 23px;
+    margin-left: 29px;
+ }
+ .smile{
+    margin-left: 12px;
+    margin-right: 22px;
+ }
+
+.send-message input{
+    border: none;
+    font-family: $nav-font-family;
+    font-style: $nav-font-style;
+    font-weight: $nav-font-weight;
+    font-size: 15px;
+    padding: 23px 10px 10px 0px;
+
+}
+.send-message-chat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: $border;
+
+}
+.chat2{
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.col-sm-12, .col-md-8, .col-lg-8{
+    padding-left: 0 !important;
+}
+@media all  and (min-width: 768px) and (max-width:1440px){
+    body{max-width: 1440px; margin: 0 auto;}
+    .nav-card img{
+        padding: 40px 51px 0px 51px;
+    }
+    .nav-text{
+        padding-bottom: 28px;
+        padding-left: 3px;
+    }
+    .search-input{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 22px;
+        color: #818386;
+        background:  #fff url("file:///B:/%D1%81%D1%82%D0%B5%D0%BF%D0%B8%D0%BA/test/img/Search.png") 22px 29px no-repeat;
+            }
+    input[placeholder="Search..."]{
+        font-family: $nav-font-family;
+        padding: 29px 266px 28px 52px;
+    }
+    .nav-card-exception img:nth-of-type(2){
+        position: relative;
+        top: -30px;
+        left: -15px;
+        border: solid 6px $color-blue;
+    }
+    .caption{
+        padding-top: 23px;
+        padding-left:25px;
+    }
+
+    .first-left-message{margin-top: 20px !important;}
+    .happy{padding-right:10px;}
+    .last-time-position{margin-left:379px !important;}
+    .others-plus{margin-left: 13px !important;}
+    .lines{
+        margin-top: 30px;
+        margin-left: 30px;
+     }
+     .line{
+        background: #E1E3E6;
+        width: 380px;
+        height: 1px;
+     }
+     .line:nth-of-type(3){
+        width: 390px;
+     }
+     .line-text{
+        margin: 0 17px;
+     }
+
+    .cap{    padding: 14px 0 14px 30px;}
+}
+@media all  and (max-width:768px){
+    .team-cards, nav{
+        display: none;
+    }
+    .center{max-width: 500px;}
+
+    .first-right-message{
+        width: 400px;
+    }
+    .first-right-message .right-icon{
+        margin-top: 40px;
+    }
+    .left{
+        margin-left: -20px;
+    }
+    .third-right-message{
+        margin-left: 245px;
+    }
+    .third-right-message .right-icon{
+        margin-top: 15px;
+    }
+    .cap{
+        margin-left: 10px;
+    }
+    .burger{
+        display: block !important;
+        margin-top: 19px;
+        margin-right: 20px;
+        margin-left: -17px;
+    }
+    .send-message{
+        display: flex;
+        flex-direction: row;
+       
+    }
+     .send-message-img{
+        margin-top: 23px;
+        margin-left: 10px;
+     }
+     .smile{
+        margin-left: 12px;
+        margin-right: 22px;
+     }
+    
+    .send-message input{
+        border: none;
+        font-family: $nav-font-family;
+        font-style: $nav-font-style;
+        font-weight: $nav-font-weight;
+        font-size: 15px;
+        padding: 23px 10px 10px 0px;
+        width: 300px;
+    }
+    .send-message-chat{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-top: $border;
+    
+    }
+    .chat2{
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+}
