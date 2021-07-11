@@ -60,6 +60,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  background-color: white;
 }
 
 .div {
@@ -69,7 +70,7 @@ body {
 }
 
 .search-input {
-  background: #fff url("file:///B:/%D1%81%D1%82%D0%B5%D0%BF%D0%B8%D0%BA/test/img/Search.png") 22px 22px no-repeat;
+  background: white url("file:///B:/%D1%81%D1%82%D0%B5%D0%BF%D0%B8%D0%BA/test/img/Search.png") 22px 22px no-repeat;
 }
 
 input[placeholder="Search..."] {
@@ -211,7 +212,7 @@ input[placeholder="Search..."] {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 14px 0 7px 25px;
+  padding: 14px 0 7px 30px;
   border-bottom: 1px solid #E1E3E6;
 }
 
@@ -586,6 +587,7 @@ input[placeholder="Search..."] {
   font-weight: normal;
   font-size: 15px;
   padding: 23px 10px 10px 0px;
+  background-color: white;
 }
 
 .send-message-chat {
@@ -633,7 +635,7 @@ input[placeholder="Search..."] {
     font-size: 15px;
     line-height: 22px;
     color: #818386;
-    background: #fff url("file:///B:/%D1%81%D1%82%D0%B5%D0%BF%D0%B8%D0%BA/test/img/Search.png") 22px 29px no-repeat;
+    background: white url("file:///B:/%D1%81%D1%82%D0%B5%D0%BF%D0%B8%D0%BA/test/img/Search.png") 22px 29px no-repeat;
   }
 
   input[placeholder="Search..."] {

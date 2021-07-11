@@ -68,6 +68,7 @@ nav section{
 body{
     display: flex;
     flex-direction: row;
+    background-color: $color-white;
 }
 .div{
     background-color: $color-blue;
@@ -75,7 +76,7 @@ body{
     margin-top: -5px;
 }
 .search-input{
-    background:  #fff url("file:///B:/%D1%81%D1%82%D0%B5%D0%BF%D0%B8%D0%BA/test/img/Search.png") 22px 22px no-repeat;
+    background:  $color-white url("file:///B:/%D1%81%D1%82%D0%B5%D0%BF%D0%B8%D0%BA/test/img/Search.png") 22px 22px no-repeat;
 }
 
 input[placeholder="Search..."]{
@@ -87,6 +88,7 @@ input[placeholder="Search..."]{
     outline: none;
     border: $border;
     width: 60px;
+    
 }
 
 .caption{
@@ -182,7 +184,7 @@ input[placeholder="Search..."]{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 14px 0 7px 25px;
+    padding: 14px 0 7px 30px;
     border-bottom: $border;
     
 }
@@ -476,7 +478,7 @@ input[placeholder="Search..."]{
     font-weight: $nav-font-weight;
     font-size: 15px;
     padding: 23px 10px 10px 0px;
-
+    background-color: $color-white;
 }
 .send-message-chat{
     display: flex;
@@ -502,13 +504,13 @@ input[placeholder="Search..."]{
         padding-left: 3px;
     }
     .search-input{
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
+        font-family: $nav-font-family;
+        font-style: $nav-font-style;
+        font-weight: $nav-font-weight;
+        font-size: $font-size;
         line-height: 22px;
-        color: #818386;
-        background:  #fff url("file:///B:/%D1%81%D1%82%D0%B5%D0%BF%D0%B8%D0%BA/test/img/Search.png") 22px 29px no-repeat;
+        color: $cards-text-color;
+        background:  $color-white url("file:///B:/%D1%81%D1%82%D0%B5%D0%BF%D0%B8%D0%BA/test/img/Search.png") 22px 29px no-repeat;
             }
     input[placeholder="Search..."]{
         font-family: $nav-font-family;
